@@ -19,34 +19,6 @@
     border: 3px solid black;
     
 }
-.item-1:hover p{
-    transform: scaleX(1);
-}
-.item-2{
-    background-image: url(/images/download\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid black;
-}
-.item-2:hover p{
-    transform: scaleX(1);
-}
-.item-3{
-    background-color: white;
-    display: flex;
-    text-align: center;
-    border: 3px solid black;
-    align-items: center;
-    justify-content: center;
-}
-.item-4{
-    background-image: url(/images/download\ \(3\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid black;
-    text-align: center;
-    background-color: rgb(44, 22, 22, 0.5);
-}
 .item-1 p{
     background-color: white;
     opacity: 0.6;
@@ -58,6 +30,15 @@
     transform: scaleX(0);
     transform-origin: left;
     
+}
+.item-1:hover p{
+    transform: scaleX(1);
+}
+.item-2{
+    background-image: url(/images/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
 }
 .item-2 p{
     background-color: black;
@@ -72,23 +53,16 @@
     color: white;
     
 }
-.item-4 p{
-    background-color: black;
-    opacity: 0.6;
-    padding: 15px;
-    font-weight: 800;
-    text-align:left;
-    background-size: cover;
-    transition: 1s;
-    transform: scaleX(0);
-    transform-origin:top;
-    color: white;
-    
-}
-
-.item-4:hover p{
-    
+.item-2:hover p{
     transform: scaleX(1);
+}
+.item-3{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
 }
 .item-3 img{
     border-radius: 50%;
@@ -112,13 +86,31 @@
     font-weight: 800;
     font-size: larger;
 }
-
-.item-4 span{
-  font-weight: 900;
-  font-size: 23px;
-  padding: 10px;
-  margin-left: 15px;
-  margin-top: 30px;
+.item-4{
+    background-image: url(/images/download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(44, 22, 22, 0.5);
+}
+.item-4 p{
+    background-color: black;
+    opacity: 0.6;
+    padding: 15px;
+    font-weight: 800;
+    text-align:left;
+    background-size: cover;
+    transition: 1s;
+    transform: scaleX(0);
+    transform-origin:top;
+    color: white;
+}
+.item-4:hover p{
+    transform: scaleX(1);
+}
+.item-4:hover {
+    transform: scale(1.03);
 }
 @media screen and (max-width:780px)  {
     .container{
